@@ -1,0 +1,54 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d8b3361c-0c6a-4299-baf2-0b5966ddedfb")
+	(paper "A4")
+	(title_block
+		(title "MASTER SHEET")
+	)
+	(lib_symbols)
+	(sheet
+		(at 13.97 15.24)
+		(size 44.45 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "754cc4f7-7309-49ec-a85a-88e49e6da610")
+		(property "Sheetname" "v0.1"
+			(at 13.97 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "v0.1.kicad_sch"
+			(at 13.97 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "powerdist"
+				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
