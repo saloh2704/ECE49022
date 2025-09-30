@@ -388,36 +388,36 @@
       "Root"
     ],
     [
-      "e88ef157-5985-49ea-9e71-95deeaac8aed",
-      "battcharger3S_v0.1_1"
+      "edd755d4-50f8-4944-95ef-47022aeeb86c",
+      "battcharger4S"
     ],
     [
       "754cc4f7-7309-49ec-a85a-88e49e6da610",
       "v0.1"
     ],
     [
-      "edd755d4-50f8-4944-95ef-47022aeeb86c",
-      "battcharger4S_v0.1"
+      "e88ef157-5985-49ea-9e71-95deeaac8aed",
+      "battcharger3S_1"
     ],
     [
       "1b151f5e-d113-49d8-a928-351d73068788",
-      "battprot_v0.1"
+      "battprot"
     ],
     [
       "2939b8be-ee6c-4ce6-b12f-d48c745ba26a",
-      "buckboost_v0.1"
+      "buckboost"
     ],
     [
       "e120752a-0fbf-4556-b9bd-c9acc7dc7af6",
-      "buck7V5_v0.1"
+      "buck7V5"
     ],
     [
       "e961ef90-b070-441f-9244-018893b50a39",
-      "buck5V1_v0.1"
+      "buck5V1"
     ],
     [
       "c4513b49-5c22-4f7a-b112-5a72cd645211",
-      "battcharger3S_v0.1_2"
+      "battcharger3S_2"
     ]
   ],
   "text_variables": {}
