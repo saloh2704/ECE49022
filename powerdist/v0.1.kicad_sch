@@ -2990,6 +2990,44 @@
 		)
 	)
 	(sheet
+		(at 13.97 53.34)
+		(size 59.69 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b292a04a-097d-460b-804d-55d90f13650c")
+		(property "Sheetname" "battcharger3S1"
+			(at 13.97 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battcharge_v0.1.kicad_sch"
+			(at 13.97 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "powerdist"
+				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 13.97 91.44)
 		(size 59.69 33.02)
 		(fields_autoplaced yes)
@@ -3000,8 +3038,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "c4513b49-5c22-4f7a-b112-5a72cd645211")
-		(property "Sheetname" "battcharger3S_2"
+		(uuid "b60946fd-320a-474b-85d6-4f9d64b72ec1")
+		(property "Sheetname" "battcharger3S2"
 			(at 13.97 90.7284 0)
 			(effects
 				(font
@@ -3019,10 +3057,19 @@
 				(justify left top)
 			)
 		)
+		(property "Field2" ""
+			(at 13.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(page "8")
+					(page "9")
 				)
 			)
 		)
@@ -3061,44 +3108,6 @@
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 13.97 53.34)
-		(size 59.69 33.02)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e88ef157-5985-49ea-9e71-95deeaac8aed")
-		(property "Sheetname" "battcharger3S_1"
-			(at 13.97 52.6284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "battcharge_v0.1.kicad_sch"
-			(at 13.97 86.9446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "powerdist"
-				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(page "3")
 				)
 			)
 		)

@@ -396,10 +396,6 @@
       "v0.1"
     ],
     [
-      "e88ef157-5985-49ea-9e71-95deeaac8aed",
-      "battcharger3S_1"
-    ],
-    [
       "1b151f5e-d113-49d8-a928-351d73068788",
       "battprot"
     ],
@@ -416,8 +412,12 @@
       "buck5V1"
     ],
     [
-      "c4513b49-5c22-4f7a-b112-5a72cd645211",
-      "battcharger3S_2"
+      "b292a04a-097d-460b-804d-55d90f13650c",
+      "battcharger3S1"
+    ],
+    [
+      "b60946fd-320a-474b-85d6-4f9d64b72ec1",
+      "battcharger3S2"
     ]
   ],
   "text_variables": {}
