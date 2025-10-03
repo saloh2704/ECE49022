@@ -1,6 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "TPS56637")(type "KiCad")(uri "${KIPRJMOD}/Custom Symbols/2025-09-22_06-11-33.kicad_sym")(options "")(descr ""))
-  (lib (name "LM5177")(type "KiCad")(uri "${KIPRJMOD}/Custom Symbols/2025-09-22_06-10-30.kicad_sym")(options "")(descr ""))
   (lib (name "BQ7791508")(type "KiCad")(uri "${KIPRJMOD}/Custom Symbols/2025-09-22_06-08-58.kicad_sym")(options "")(descr ""))
 )
