@@ -335,11 +335,41 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -371,6 +401,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -408,7 +446,7 @@
       "buck7V5"
     ],
     [
-      "e961ef90-b070-441f-9244-018893b50a39",
+      "d20406a8-849c-4daf-91e9-f6a00db06dfe",
       "buck5V1"
     ],
     [
@@ -420,11 +458,11 @@
       "battcharger3S2"
     ],
     [
-      "4c604d09-efcc-497e-9bca-5b98c6439ac1",
+      "b47836f1-283b-4d17-ad51-d7ed8020bd0f",
       "battprot2"
     ],
     [
-      "8ad6b00d-daa7-472f-86ce-50b31d2c2e40",
+      "0212c3ea-6f98-431b-bd03-36e6e092d236",
       "battprot3"
     ]
   ],
