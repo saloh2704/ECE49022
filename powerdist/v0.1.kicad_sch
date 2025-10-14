@@ -4657,7 +4657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15a2f9e8-f2ae-4796-bce5-849ea8880561")
-		(property "Reference" "5V1out1"
+		(property "Reference" "J4"
 			(at 152.4 189.2299 0)
 			(effects
 				(font
@@ -4711,7 +4711,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "5V1out1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4865,7 +4865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "293ca940-db3f-47c9-a66f-5687eab4c91e")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG03"
 			(at 218.44 161.925 0)
 			(effects
 				(font
@@ -4915,7 +4915,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "#FLG01")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -5216,7 +5216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f57037c-3bf3-4481-beed-d410bf3808ec")
-		(property "Reference" "12Vout1"
+		(property "Reference" "J2"
 			(at 152.4 161.2899 0)
 			(effects
 				(font
@@ -5270,7 +5270,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "12Vout1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5352,7 +5352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "586cb0ca-cf72-453c-b0d9-560db8972051")
-		(property "Reference" "7V5out1"
+		(property "Reference" "J3"
 			(at 152.4 175.2599 0)
 			(effects
 				(font
@@ -5406,7 +5406,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "7V5out1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5489,7 +5489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fd2b2ee-27ff-467a-bd17-29f2ebad6815")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG05"
 			(at 238.76 161.925 0)
 			(effects
 				(font
@@ -5539,7 +5539,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "#FLG03")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -6115,7 +6115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77fe8c07-6fc3-41be-8738-730ee342b9d3")
-		(property "Reference" "BATT3S2"
+		(property "Reference" "BATT3S3"
 			(at 106.045 182.88 0)
 			(effects
 				(font
@@ -6173,7 +6173,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "BATT3S2")
+					(reference "BATT3S3")
 					(unit 1)
 				)
 			)
@@ -6389,7 +6389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a1b1c3b-e42f-4a95-8571-d300a8027de3")
-		(property "Reference" "BATT3S1"
+		(property "Reference" "BATT4S3"
 			(at 106.045 166.37 0)
 			(effects
 				(font
@@ -6450,7 +6450,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "BATT3S1")
+					(reference "BATT4S3")
 					(unit 1)
 				)
 			)
@@ -6466,7 +6466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "906843c1-e320-4215-8932-3a9f4e083a0f")
-		(property "Reference" "BATT2S1"
+		(property "Reference" "BATT4S2"
 			(at 65.405 166.37 0)
 			(effects
 				(font
@@ -6527,7 +6527,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "BATT2S1")
+					(reference "BATT4S2")
 					(unit 1)
 				)
 			)
@@ -6543,7 +6543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9106d3ca-e0a5-4534-841c-0e10aeef4cf3")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG06"
 			(at 248.92 161.925 0)
 			(effects
 				(font
@@ -6593,7 +6593,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "#FLG04")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -6878,7 +6878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ea5cf3f-a7a3-4017-9994-4e3f0ed92fbd")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG07"
 			(at 259.08 161.925 0)
 			(effects
 				(font
@@ -6928,7 +6928,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "#FLG05")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -7010,7 +7010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae290145-2d00-4b9c-ab77-729a1a3d0478")
-		(property "Reference" "BATT1S2"
+		(property "Reference" "BATT3S1"
 			(at 24.765 182.88 0)
 			(effects
 				(font
@@ -7068,7 +7068,7 @@
 		(instances
 			(project ""
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "BATT1S2")
+					(reference "BATT3S1")
 					(unit 1)
 				)
 			)
@@ -7084,7 +7084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b06817cb-c407-4e47-9e36-80093a2b03e9")
-		(property "Reference" "INPUT1"
+		(property "Reference" "J1"
 			(at 27.305 138.43 0)
 			(effects
 				(font
@@ -7136,7 +7136,7 @@
 		(instances
 			(project ""
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "INPUT1")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7152,7 +7152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1d16595-1287-4a95-8510-01ee449f3a0c")
-		(property "Reference" "BATT2S2"
+		(property "Reference" "BATT3S2"
 			(at 65.405 182.88 0)
 			(effects
 				(font
@@ -7210,7 +7210,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "BATT2S2")
+					(reference "BATT3S2")
 					(unit 1)
 				)
 			)
@@ -7226,7 +7226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b63f8011-c781-4796-8760-f0310a1ba16d")
-		(property "Reference" "BATT1S1"
+		(property "Reference" "BATT4S1"
 			(at 24.765 166.37 0)
 			(effects
 				(font
@@ -7287,7 +7287,7 @@
 		(instances
 			(project ""
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "BATT1S1")
+					(reference "BATT4S1")
 					(unit 1)
 				)
 			)
@@ -8265,7 +8265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa4e47c0-0270-457a-ba0a-453b61b947d6")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG04"
 			(at 228.6 161.925 0)
 			(effects
 				(font
@@ -8315,7 +8315,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "#FLG02")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -8331,7 +8331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc809cb8-990f-427d-893f-2952230520ab")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG08"
 			(at 279.4 158.115 0)
 			(effects
 				(font
@@ -8381,7 +8381,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "#FLG07")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)

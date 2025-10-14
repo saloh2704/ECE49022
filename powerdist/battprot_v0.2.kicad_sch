@@ -7123,7 +7123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "375a2bfb-73eb-481e-a5d2-7c49c33bdc53")
-		(property "Reference" "#FLG015"
+		(property "Reference" "#FLG023"
 			(at 279.4 160.655 0)
 			(effects
 				(font
@@ -7173,15 +7173,15 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/0212c3ea-6f98-431b-bd03-36e6e092d236"
-					(reference "#FLG015")
+					(reference "#FLG023")
 					(unit 1)
 				)
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/1b151f5e-d113-49d8-a928-351d73068788"
-					(reference "#FLG06")
+					(reference "#FLG09")
 					(unit 1)
 				)
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/b47836f1-283b-4d17-ad51-d7ed8020bd0f"
-					(reference "#FLG014")
+					(reference "#FLG022")
 					(unit 1)
 				)
 			)
@@ -8632,7 +8632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP24_4P4X7P8_THT_TEX"
+		(property "Footprint" "powerdist:TSSOP24_4P4X7P8_THT_TEX"
 			(at 172.212 112.776 0)
 			(effects
 				(font

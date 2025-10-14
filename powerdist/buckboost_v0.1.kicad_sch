@@ -4457,7 +4457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a9a1ff3-5daa-403b-883d-8509bbb1648e")
-		(property "Reference" "#FLG017"
+		(property "Reference" "#FLG011"
 			(at 234.95 160.655 0)
 			(effects
 				(font
@@ -4507,7 +4507,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/2939b8be-ee6c-4ce6-b12f-d48c745ba26a"
-					(reference "#FLG017")
+					(reference "#FLG011")
 					(unit 1)
 				)
 			)
@@ -7538,7 +7538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6f6481c-5efd-48d2-a58e-e48d6787f432")
-		(property "Reference" "#FLG016"
+		(property "Reference" "#FLG010"
 			(at 140.97 93.345 0)
 			(effects
 				(font
@@ -7588,7 +7588,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/2939b8be-ee6c-4ce6-b12f-d48c745ba26a"
-					(reference "#FLG016")
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)

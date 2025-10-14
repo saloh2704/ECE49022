@@ -1503,7 +1503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05ecd4b9-40b1-451b-800b-2fc67f8b3d99")
-		(property "Reference" "#FLG022"
+		(property "Reference" "#FLG017"
 			(at 175.26 89.535 0)
 			(effects
 				(font
@@ -1553,11 +1553,11 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/d20406a8-849c-4daf-91e9-f6a00db06dfe"
-					(reference "#FLG023")
+					(reference "#FLG017")
 					(unit 1)
 				)
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/e120752a-0fbf-4556-b9bd-c9acc7dc7af6"
-					(reference "#FLG022")
+					(reference "#FLG014")
 					(unit 1)
 				)
 			)
@@ -1663,7 +1663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPA0010A"
+		(property "Footprint" "powerdist:RPA0010A"
 			(at 140.97 82.55 0)
 			(effects
 				(font
@@ -1815,7 +1815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3be1f867-ec79-4084-8ed0-edde51fc8be7")
-		(property "Reference" "#FLG020"
+		(property "Reference" "#FLG016"
 			(at 162.56 81.915 0)
 			(effects
 				(font
@@ -1865,11 +1865,11 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/d20406a8-849c-4daf-91e9-f6a00db06dfe"
-					(reference "#FLG021")
+					(reference "#FLG016")
 					(unit 1)
 				)
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/e120752a-0fbf-4556-b9bd-c9acc7dc7af6"
-					(reference "#FLG020")
+					(reference "#FLG013")
 					(unit 1)
 				)
 			)
@@ -2029,7 +2029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67655a33-1856-4629-b548-406e7b1401b8")
-		(property "Reference" "#FLG018"
+		(property "Reference" "#FLG015"
 			(at 161.29 67.945 0)
 			(effects
 				(font
@@ -2079,11 +2079,11 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/d20406a8-849c-4daf-91e9-f6a00db06dfe"
-					(reference "#FLG019")
+					(reference "#FLG015")
 					(unit 1)
 				)
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/e120752a-0fbf-4556-b9bd-c9acc7dc7af6"
-					(reference "#FLG018")
+					(reference "#FLG012")
 					(unit 1)
 				)
 			)

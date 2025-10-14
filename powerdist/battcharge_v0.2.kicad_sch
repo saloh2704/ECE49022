@@ -10092,7 +10092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "968ed539-a22d-4923-87f3-1156903e1840")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG018"
 			(at 265.43 160.655 0)
 			(effects
 				(font
@@ -10142,15 +10142,15 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/81c3c606-dfac-43ee-b9db-cd92c5c41551"
-					(reference "#FLG09")
+					(reference "#FLG018")
 					(unit 1)
 				)
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/dcda3e3d-d6c4-4504-a850-422792b1f588"
-					(reference "#FLG010")
+					(reference "#FLG020")
 					(unit 1)
 				)
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/edd755d4-50f8-4944-95ef-47022aeeb86c"
-					(reference "#FLG08")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -11093,7 +11093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc76755f-49f7-471d-9849-262a3bb7dffa")
-		(property "Reference" "#FLG012"
+		(property "Reference" "#FLG019"
 			(at 275.59 160.655 0)
 			(effects
 				(font
@@ -11143,15 +11143,15 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/81c3c606-dfac-43ee-b9db-cd92c5c41551"
-					(reference "#FLG012")
+					(reference "#FLG019")
 					(unit 1)
 				)
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/dcda3e3d-d6c4-4504-a850-422792b1f588"
-					(reference "#FLG013")
+					(reference "#FLG021")
 					(unit 1)
 				)
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/edd755d4-50f8-4944-95ef-47022aeeb86c"
-					(reference "#FLG011")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
