@@ -4111,7 +4111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00fb0f1e-d515-43ef-90f8-d8f180ce3ce4")
-		(property "Reference" "D13"
+		(property "Reference" "D14"
 			(at 210.82 21.8441 90)
 			(effects
 				(font
@@ -4129,7 +4129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 213.36 20.32 90)
 			(effects
 				(font
@@ -4165,7 +4165,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/2939b8be-ee6c-4ce6-b12f-d48c745ba26a"
-					(reference "D13")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -4199,7 +4199,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.1 22.86 0)
 			(effects
 				(font
@@ -4607,7 +4607,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 29.21 22.86 0)
 			(effects
 				(font
@@ -4676,7 +4676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-5050"
 			(at 201.93 33.02 0)
 			(effects
 				(font
@@ -4797,7 +4797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "303257bd-c6a6-43d2-9421-21a3a77b2806")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 138.684 85.344 0)
 			(effects
 				(font
@@ -4815,7 +4815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 135.89 83.82 90)
 			(effects
 				(font
@@ -4851,7 +4851,7 @@
 		(instances
 			(project ""
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/2939b8be-ee6c-4ce6-b12f-d48c745ba26a"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -5327,7 +5327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 158.75 120.65 0)
 			(effects
 				(font
@@ -5446,7 +5446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "599ee852-4ce4-4ee8-aa8d-cf623b25c2ee")
-		(property "Reference" "D12"
+		(property "Reference" "D13"
 			(at 193.04 21.8441 90)
 			(effects
 				(font
@@ -5464,7 +5464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 190.5 20.32 90)
 			(effects
 				(font
@@ -5500,7 +5500,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610/2939b8be-ee6c-4ce6-b12f-d48c745ba26a"
-					(reference "D12")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -5907,7 +5907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.06 123.19 0)
 			(effects
 				(font
@@ -6174,7 +6174,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.71 113.03 0)
 			(effects
 				(font
@@ -6380,7 +6380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 135.89 88.9 0)
 			(effects
 				(font
@@ -6816,7 +6816,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small_US"
+		(property "Value" "6m"
 			(at 204.47 52.0699 0)
 			(effects
 				(font
@@ -6825,7 +6825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 201.93 50.8 0)
 			(effects
 				(font
@@ -6894,7 +6894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.71 115.57 0)
 			(effects
 				(font
@@ -6964,7 +6964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 158.75 115.57 0)
 			(effects
 				(font
@@ -7897,7 +7897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 133.35 88.9 0)
 			(effects
 				(font
@@ -7967,7 +7967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 20.32 22.86 0)
 			(effects
 				(font
@@ -8236,7 +8236,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.06 125.73 0)
 			(effects
 				(font

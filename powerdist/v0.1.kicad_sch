@@ -4737,6 +4737,16 @@
 		)
 		(uuid "6d3ee595-f5db-4fff-802a-b250e8c72ba6")
 	)
+	(text "ALL INDUCTORS IHLP5050FDxxxRxMA1"
+		(exclude_from_sim no)
+		(at 256.794 178.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d9ab0d3-4cec-495c-a14b-2fd652efc8bb")
+	)
 	(label "CE2"
 		(at 22.86 111.76 180)
 		(fields_autoplaced yes)
@@ -6296,7 +6306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 251.46 48.26 0)
 			(effects
 				(font
@@ -6365,7 +6375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 24.13 0)
 			(effects
 				(font
@@ -6435,7 +6445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 22.86 152.4 0)
 			(effects
 				(font
@@ -6858,7 +6868,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e4e2da3-3780-4250-b279-dc397e781461")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 19.05 162.56 0)
 			(effects
 				(font
@@ -6874,7 +6884,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 19.05 156.21 90)
 			(effects
 				(font
@@ -6928,7 +6938,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -6962,7 +6972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 251.46 20.32 0)
 			(effects
 				(font
@@ -7174,7 +7184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 251.46 34.29 0)
 			(effects
 				(font
@@ -7376,7 +7386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 256.54 149.86 0)
 			(effects
 				(font
@@ -7577,7 +7587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 166.37 24.13 0)
 			(effects
 				(font
@@ -7767,7 +7777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72c07611-b566-474f-997a-7605bbd923cb")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 71.12 81.28 0)
 			(effects
 				(font
@@ -7783,7 +7793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 71.12 87.63 90)
 			(effects
 				(font
@@ -7837,7 +7847,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8011,7 +8021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 256.54 111.76 0)
 			(effects
 				(font
@@ -8497,7 +8507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-5050"
 			(at 256.54 127 0)
 			(effects
 				(font
@@ -9003,7 +9013,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 208.28 25.4 0)
 			(effects
 				(font
@@ -9224,7 +9234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 152.4 114.3 0)
 			(effects
 				(font
@@ -9359,7 +9369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.45 24.13 0)
 			(effects
 				(font
@@ -9541,7 +9551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2859383-1938-438e-8f5a-d20de1c7ef66")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 19.05 124.46 0)
 			(effects
 				(font
@@ -9557,7 +9567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 19.05 118.11 90)
 			(effects
 				(font
@@ -9611,7 +9621,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9693,7 +9703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c66d2301-0a27-4046-94f3-c094ca5e8f73")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 173.99 29.2099 90)
 			(effects
 				(font
@@ -9711,7 +9721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 171.45 30.48 90)
 			(effects
 				(font
@@ -9747,7 +9757,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -9763,7 +9773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e126c573-3ae5-4d66-8118-f9da095f4f19")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 52.07 29.2099 90)
 			(effects
 				(font
@@ -9781,7 +9791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 49.53 30.48 90)
 			(effects
 				(font
@@ -9817,7 +9827,7 @@
 		(instances
 			(project ""
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9900,7 +9910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e73cc537-680b-466e-b612-b461a3a10261")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 113.03 29.2099 90)
 			(effects
 				(font
@@ -9918,7 +9928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 110.49 30.48 90)
 			(effects
 				(font
@@ -9954,7 +9964,7 @@
 		(instances
 			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb/754cc4f7-7309-49ec-a85a-88e49e6da610"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -9988,7 +9998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 22.86 114.3 0)
 			(effects
 				(font
@@ -10569,7 +10579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-5050"
 			(at 256.54 88.9 0)
 			(effects
 				(font

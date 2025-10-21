@@ -2,13 +2,14 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "D_Schottky_Dual_CommonCathode_AAK_Parallel"
+	(symbol D_Schottky_Dual_CommonCathode_AAK_Parallel
 		(pin_names
-			(offset 0.762) hide)
+			(offset 0.762) hide
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "D"
+		(property Reference D
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -16,7 +17,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky_Dual_CommonCathode_AAK_Parallel"
+		(property Value D_Schottky_Dual_CommonCathode_AAK_Parallel
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -24,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property Footprint ""
 			(at 1.27 0 0)
 			(effects
 				(font
@@ -33,7 +34,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property Datasheet ~
 			(at 1.27 0 0)
 			(effects
 				(font
@@ -42,7 +43,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Schottky diode, common cathode on pin 3"
+		(property Description "Dual Schottky diode, common cathode on pin 3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51,7 +52,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "diode"
+		(property ki_keywords diode
 			(at 0 0 0)
 			(effects
 				(font
@@ -60,34 +61,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "D_Schottky_Dual_CommonCathode_AAK_Parallel_0_1"
+		(symbol D_Schottky_Dual_CommonCathode_AAK_Parallel_0_1
 			(polyline
 				(pts
-					(xy -1.2693 -2.3109) (xy 0.2547 -1.2949) (xy -1.2693 -0.2789) (xy -1.2693 -2.3109)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.2693 0.2291) (xy 0.2547 1.2451) (xy -1.2693 2.2611) (xy -1.2693 0.2291)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.27) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 0 1.27)
+					(xy 1.27 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -99,8 +76,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0.7627 -0.5329) (xy 0.7627 -0.2789) (xy 0.2547 -0.2789) (xy 0.2547 -2.3109) (xy -0.2533 -2.3109)
-					(xy -0.2533 -2.0569)
+					(xy -2.54 -2.54) (xy 1.27 -2.54) (xy 1.27 2.54) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -1.27) (xy 0 -2.54) (xy -2.54 -3.81) (xy -2.54 -1.27) (xy -2.54 -1.27) (xy -2.54 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -112,8 +100,31 @@
 			)
 			(polyline
 				(pts
-					(xy 0.7627 2.0071) (xy 0.7627 2.2611) (xy 0.2547 2.2611) (xy 0.2547 0.2291) (xy -0.2533 0.2291)
-					(xy -0.2533 0.4831)
+					(xy -2.54 3.81) (xy 0 2.54) (xy -2.54 1.27) (xy -2.54 3.81) (xy -2.54 3.81) (xy -2.54 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.524) (xy 0.508 -1.27) (xy 0 -1.27) (xy 0 -3.81) (xy -0.508 -3.81) (xy -0.508 -3.556)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 3.556) (xy 0.508 3.81) (xy 0 3.81) (xy 0 1.27) (xy -0.508 1.27) (xy -0.508 1.524)
 				)
 				(stroke
 					(width 0.254)
@@ -135,9 +146,9 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 1.27 0)
+				(at -5.08 2.54 0)
 				(length 2.54)
-				(name "A"
+				(name A
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -153,9 +164,9 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -1.27 0)
+				(at -5.08 -2.54 0)
 				(length 2.54)
-				(name "A"
+				(name A
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -171,9 +182,9 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 2.54)
-				(name "K"
+				(name K
 					(effects
 						(font
 							(size 1.27 1.27)
