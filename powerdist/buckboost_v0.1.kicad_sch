@@ -10,165 +10,6 @@
 		(comment 1 "www.ti.com/lit/ds/symlink/lm5176.pdf")
 	)
 	(lib_symbols
-		(symbol "Device:C_Polarized_Small_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_Small_US"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, small US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_Small_US_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -0.762)
-					(mid 0 -0.3734)
-					(end -1.524 -0.762)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_Small_US_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -4308,7 +4149,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
+		(lib_id "Device:C_Small")
 		(at 158.75 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4318,7 +4159,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f78f747-a25a-46a2-8861-b902137a17a3")
 		(property "Reference" "C42"
-			(at 161.29 24.9681 0)
+			(at 161.29 25.4062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +4168,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 161.29 27.5081 0)
+			(at 161.29 27.9462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +4176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 158.75 26.67 0)
 			(effects
 				(font
@@ -4353,7 +4194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small US symbol"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 158.75 26.67 0)
 			(effects
 				(font
@@ -4378,7 +4219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
+		(lib_id "Device:C_Small")
 		(at 149.86 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4388,7 +4229,7 @@
 		(fields_autoplaced yes)
 		(uuid "185c3fb0-491c-4055-b40f-4bc14e98ca98")
 		(property "Reference" "C39"
-			(at 152.4 24.9681 0)
+			(at 152.4 25.4062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +4238,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 152.4 27.5081 0)
+			(at 152.4 27.9462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +4246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 149.86 26.67 0)
 			(effects
 				(font
@@ -4423,7 +4264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small US symbol"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 149.86 26.67 0)
 			(effects
 				(font
@@ -4746,7 +4587,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 38.1 27.94 0)
 			(effects
 				(font
@@ -4948,7 +4789,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 156.21 92.71 0)
 			(effects
 				(font
@@ -5018,7 +4859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 259.08 26.67 0)
 			(effects
 				(font
@@ -5087,7 +4928,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 41.91 24.13 0)
 			(effects
 				(font
@@ -5157,7 +4998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:VSONP-8-1EP_5x6_P1.27mm"
 			(at 181.61 38.1 0)
 			(effects
 				(font
@@ -5257,7 +5098,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 20.32 27.94 0)
 			(effects
 				(font
@@ -5534,7 +5375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:VSONP-8-1EP_5x6_P1.27mm"
 			(at 222.25 38.1 0)
 			(effects
 				(font
@@ -5634,7 +5475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.71 120.65 0)
 			(effects
 				(font
@@ -5743,7 +5584,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
+		(lib_id "Device:C_Small")
 		(at 276.86 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5753,7 +5594,7 @@
 		(fields_autoplaced yes)
 		(uuid "68314190-311f-4871-a189-2cc7a7f0a0b1")
 		(property "Reference" "C49"
-			(at 279.4 24.9681 0)
+			(at 279.4 25.4062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +5603,7 @@
 			)
 		)
 		(property "Value" "39u"
-			(at 279.4 27.5081 0)
+			(at 279.4 27.9462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,7 +5611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 276.86 26.67 0)
 			(effects
 				(font
@@ -5788,7 +5629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small US symbol"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 276.86 26.67 0)
 			(effects
 				(font
@@ -5840,7 +5681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 250.19 26.67 0)
 			(effects
 				(font
@@ -6244,7 +6085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.36 27.94 0)
 			(effects
 				(font
@@ -6447,7 +6288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 156.21 96.52 0)
 			(effects
 				(font
@@ -6517,7 +6358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:VSONP-8-1EP_5x6_P1.27mm"
 			(at 222.25 25.4 0)
 			(effects
 				(font
@@ -6615,7 +6456,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 146.05 91.44 0)
 			(effects
 				(font
@@ -6685,7 +6526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 241.3 26.67 0)
 			(effects
 				(font
@@ -6728,7 +6569,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
+		(lib_id "Device:C_Small")
 		(at 267.97 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6738,7 +6579,7 @@
 		(fields_autoplaced yes)
 		(uuid "a07fc4ea-c586-4d29-8c90-e800266e1de7")
 		(property "Reference" "C48"
-			(at 270.51 24.9681 0)
+			(at 270.51 25.4062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6747,7 +6588,7 @@
 			)
 		)
 		(property "Value" "39u"
-			(at 270.51 27.5081 0)
+			(at 270.51 27.9462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,7 +6596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 267.97 26.67 0)
 			(effects
 				(font
@@ -6773,7 +6614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small US symbol"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 267.97 26.67 0)
 			(effects
 				(font
@@ -7033,7 +6874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:VSONP-8-1EP_5x6_P1.27mm"
 			(at 181.61 25.4 0)
 			(effects
 				(font
@@ -7416,7 +7257,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 29.21 27.94 0)
 			(effects
 				(font
@@ -7459,7 +7300,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
+		(lib_id "Device:C_Small")
 		(at 140.97 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7469,7 +7310,7 @@
 		(fields_autoplaced yes)
 		(uuid "c18f6b9f-01f2-4897-93ae-6a0596a8b23a")
 		(property "Reference" "C37"
-			(at 143.51 24.9681 0)
+			(at 143.51 25.4062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7478,7 +7319,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 143.51 27.5081 0)
+			(at 143.51 27.9462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7486,7 +7327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 140.97 26.67 0)
 			(effects
 				(font
@@ -7504,7 +7345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small US symbol"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 140.97 26.67 0)
 			(effects
 				(font
@@ -7621,7 +7462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 190.5 27.94 0)
 			(effects
 				(font
@@ -7664,7 +7505,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
+		(lib_id "Device:C_Small")
 		(at 132.08 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7674,7 +7515,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5a74148-ceef-443b-9115-9853538a5934")
 		(property "Reference" "C36"
-			(at 134.62 24.9681 0)
+			(at 134.62 25.4062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,7 +7524,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 134.62 27.5081 0)
+			(at 134.62 27.9462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7691,7 +7532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 132.08 26.67 0)
 			(effects
 				(font
@@ -7709,7 +7550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small US symbol"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 132.08 26.67 0)
 			(effects
 				(font
@@ -7827,7 +7668,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.71 107.95 0)
 			(effects
 				(font
@@ -8037,7 +7878,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 104.14 124.46 0)
 			(effects
 				(font
