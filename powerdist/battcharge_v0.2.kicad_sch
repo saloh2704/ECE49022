@@ -10696,7 +10696,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9dab5656-c938-41d4-a9a3-af11a5370f82")
 		(property "Reference" "L3"
 			(at 247.65 29.21 90)
@@ -12319,7 +12318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 256.54 34.29 0)
 			(effects
 				(font
