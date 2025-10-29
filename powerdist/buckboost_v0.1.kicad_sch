@@ -2006,7 +2006,7 @@
 	)
 	(text "!DS10.10!\n!DS10.11!\n"
 		(exclude_from_sim no)
-		(at 201.93 16.002 0)
+		(at 201.93 20.828 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2315,6 +2315,12 @@
 		(uuid "6f00c6f0-4274-4e9d-a745-061423d4924b")
 	)
 	(junction
+		(at 201.93 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f0b36c5-bf6e-4ecc-a26d-56a3028e9d5e")
+	)
+	(junction
 		(at 267.97 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2421,12 +2427,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b750b2eb-3471-41ee-896c-32d4bad02f10")
-	)
-	(junction
-		(at 190.5 17.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8c32179-492f-434d-8e57-9bb273e0eb72")
 	)
 	(junction
 		(at 135.89 91.44)
@@ -2551,6 +2551,16 @@
 			(type default)
 		)
 		(uuid "1013d094-37dc-4e1c-884b-08c70f3fe9fc")
+	)
+	(wire
+		(pts
+			(xy 201.93 17.78) (xy 213.36 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10358ba2-b51c-4930-a8e2-ae8909097558")
 	)
 	(wire
 		(pts
@@ -2964,7 +2974,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 17.78) (xy 213.36 17.78)
+			(xy 190.5 17.78) (xy 201.93 17.78)
 		)
 		(stroke
 			(width 0)
@@ -3224,16 +3234,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 17.78) (xy 190.5 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "970f27da-981f-483f-a387-97e82a100ca2")
-	)
-	(wire
-		(pts
 			(xy 135.89 91.44) (xy 140.97 91.44)
 		)
 		(stroke
@@ -3441,6 +3441,16 @@
 			(type default)
 		)
 		(uuid "caf9d3bf-7e53-4690-9738-aad1d80a666d")
+	)
+	(wire
+		(pts
+			(xy 201.93 16.51) (xy 201.93 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc941a01-e1c5-40e2-b8a9-c66a77607c9e")
 	)
 	(wire
 		(pts
@@ -3872,6 +3882,16 @@
 		)
 		(uuid "5ffc243c-cc24-47e6-9990-540aeba031d7")
 	)
+	(label "VCC"
+		(at 201.93 16.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66edcc03-fc1e-49de-ad3b-0a1d85508166")
+	)
 	(label "BOOT1"
 		(at 149.86 110.49 0)
 		(effects
@@ -3931,16 +3951,6 @@
 			(justify left bottom)
 		)
 		(uuid "b75ebdae-cf56-40a1-89f4-3d2780a1f054")
-	)
-	(label "VCC"
-		(at 189.23 17.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bf5ac483-dbac-45f8-b797-1d838e0c9395")
 	)
 	(label "BOOT2"
 		(at 212.09 25.4 180)
@@ -4103,7 +4113,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10BQ030"
+		(property "Value" "XBS053V13R"
 			(at 141.224 85.344 0)
 			(effects
 				(font
@@ -4112,7 +4122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 135.89 83.82 90)
 			(effects
 				(font
@@ -5452,27 +5462,26 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d7215c5-3735-4718-a913-a8c9b38aad75")
 		(property "Reference" "D29"
-			(at 210.82 21.8441 90)
+			(at 213.36 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10BQ030"
-			(at 210.82 19.3041 90)
+		(property "Value" "XBS053V13R"
+			(at 213.36 13.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 213.36 20.32 90)
 			(effects
 				(font
@@ -5797,27 +5806,26 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "71bdd53c-9076-4ccb-8c9b-fca1bede9390")
 		(property "Reference" "D28"
-			(at 193.04 21.8441 90)
+			(at 190.5 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10BQ030"
-			(at 193.04 19.3041 90)
+		(property "Value" "XBS053V13R"
+			(at 190.5 13.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 190.5 20.32 90)
 			(effects
 				(font
