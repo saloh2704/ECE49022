@@ -1214,18 +1214,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:CSD18504Q5A"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1233,8 +1231,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "CSD18504Q5A"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1242,25 +1240,28 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/csd18504q5a"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Description" "50A Id, 40V Vds, NexFET N-Channel Power MOSFET, 6.6mOhm Ron, 16nC Qg(typ), SON8 5x6mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1269,34 +1270,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "ki_keywords" "NexFET Power MOSFET N-MOS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1305,7 +1279,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "ki_fp_filters" "TDSON*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CSD18504Q5A_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1472,10 +1455,10 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
+			(symbol "CSD18504Q5A_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 2.54)
+					(length 5.08)
 					(name "G"
 						(effects
 							(font
@@ -1483,7 +1466,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1501,6 +1484,24 @@
 							)
 						)
 					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "1"
 						(effects
 							(font
@@ -1512,6 +1513,26 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
 					(name "S"
 						(effects
 							(font
@@ -4819,7 +4840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:CSD18504Q5A")
 		(at 176.53 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4846,25 +4867,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:VSONP-8-1EP_5x6_P1.27mm"
-			(at 181.61 38.1 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 181.61 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/csd18504q5a"
+			(at 181.61 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 176.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "50A Id, 40V Vds, NexFET N-Channel Power MOSFET, 6.6mOhm Ron, 16nC Qg(typ), SON8 5x6mm"
 			(at 176.53 40.64 0)
 			(effects
 				(font
@@ -4908,6 +4932,12 @@
 		)
 		(pin "1"
 			(uuid "5e1e778e-415d-4a4f-a818-41cc16e258f6")
+		)
+		(pin "4"
+			(uuid "8cc612e2-4638-4c51-90ea-72dfae16571e")
+		)
+		(pin "5"
+			(uuid "0bb862b2-61dc-44fd-aa0b-c788c0f70e95")
 		)
 		(instances
 			(project "powerdist"
@@ -7204,7 +7234,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:CSD18504Q5A")
 		(at 176.53 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7230,25 +7260,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:VSONP-8-1EP_5x6_P1.27mm"
-			(at 181.61 25.4 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 181.61 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/csd18504q5a"
+			(at 181.61 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 176.53 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "50A Id, 40V Vds, NexFET N-Channel Power MOSFET, 6.6mOhm Ron, 16nC Qg(typ), SON8 5x6mm"
 			(at 176.53 27.94 0)
 			(effects
 				(font
@@ -7292,6 +7325,12 @@
 		)
 		(pin "1"
 			(uuid "2fe8c568-8a7d-44d0-9ffb-3ed53779df6f")
+		)
+		(pin "4"
+			(uuid "b3d9c336-b268-490a-ab9b-9837b445bd07")
+		)
+		(pin "5"
+			(uuid "866dd8ba-989c-4f9d-8f11-527c02129cf0")
 		)
 		(instances
 			(project "powerdist"
@@ -7634,7 +7673,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:CSD18504Q5A")
 		(at 227.33 40.64 0)
 		(mirror y)
 		(unit 1)
@@ -7661,25 +7700,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:VSONP-8-1EP_5x6_P1.27mm"
-			(at 222.25 38.1 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 222.25 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/csd18504q5a"
+			(at 222.25 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 227.33 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "50A Id, 40V Vds, NexFET N-Channel Power MOSFET, 6.6mOhm Ron, 16nC Qg(typ), SON8 5x6mm"
 			(at 227.33 40.64 0)
 			(effects
 				(font
@@ -7723,6 +7765,12 @@
 		)
 		(pin "1"
 			(uuid "d8626959-4b35-453e-9bc9-5d5838362e74")
+		)
+		(pin "4"
+			(uuid "4d96d873-9b70-462f-b5e2-7143dec969a1")
+		)
+		(pin "5"
+			(uuid "c84b8140-1e12-4299-9ef8-0939a22a62e1")
 		)
 		(instances
 			(project "powerdist"
@@ -7870,7 +7918,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:CSD18504Q5A")
 		(at 227.33 27.94 0)
 		(mirror y)
 		(unit 1)
@@ -7897,25 +7945,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:VSONP-8-1EP_5x6_P1.27mm"
-			(at 222.25 25.4 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 222.25 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/csd18504q5a"
+			(at 222.25 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 227.33 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "50A Id, 40V Vds, NexFET N-Channel Power MOSFET, 6.6mOhm Ron, 16nC Qg(typ), SON8 5x6mm"
 			(at 227.33 27.94 0)
 			(effects
 				(font
@@ -7959,6 +8010,12 @@
 		)
 		(pin "1"
 			(uuid "f69c8583-f326-4b30-86c4-d9f38bae9cca")
+		)
+		(pin "4"
+			(uuid "d54700cf-0057-4323-9c1e-a4d3cca69c67")
+		)
+		(pin "5"
+			(uuid "45fa2c43-1108-45a1-8e40-dbd5c7b7c895")
 		)
 		(instances
 			(project "powerdist"
