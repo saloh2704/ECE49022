@@ -1413,7 +1413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "powerdist:RPA0010A"
+		(property "Footprint" "powerdist:CONV_TPS56637RPAR"
 			(at 140.97 82.55 0)
 			(effects
 				(font

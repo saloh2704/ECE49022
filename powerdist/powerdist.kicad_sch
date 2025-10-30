@@ -12548,8 +12548,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
+		(lib_id "Connector:Conn_01x04_Pin")
 		(at 389.89 27.94 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12557,7 +12558,7 @@
 		(dnp no)
 		(uuid "77a084f3-2788-4adf-ad95-53d297523d78")
 		(property "Reference" "J9"
-			(at 385.318 34.798 0)
+			(at 387.096 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12565,16 +12566,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 385.318 37.338 0)
+		(property "Value" "Conn_01x04_Pin"
+			(at 392.43 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 389.89 27.94 0)
 			(effects
 				(font
@@ -12614,7 +12614,7 @@
 			(uuid "893090d4-5347-4f7b-9d4d-df166c0670f9")
 		)
 		(instances
-			(project ""
+			(project "powerdist"
 				(path "/d8b3361c-0c6a-4299-baf2-0b5966ddedfb"
 					(reference "J9")
 					(unit 1)
@@ -13424,7 +13424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 351.79 144.78 0)
 			(effects
 				(font
@@ -18101,7 +18101,7 @@
 				(justify left)
 			)
 		)
-		(pin "SENSE1" input
+		(pin "SENSE4" input
 			(at 224.79 213.36 180)
 			(uuid "54a60e0b-ce17-422b-8d20-886a2986c15d")
 			(effects
@@ -18111,7 +18111,7 @@
 				(justify left)
 			)
 		)
-		(pin "SENSE2" input
+		(pin "SENSE3" input
 			(at 224.79 215.9 180)
 			(uuid "10dfac84-84aa-4a7a-8835-bfb845c41935")
 			(effects
@@ -18121,7 +18121,7 @@
 				(justify left)
 			)
 		)
-		(pin "SENSE3" input
+		(pin "SENSE1" input
 			(at 266.7 213.36 0)
 			(uuid "c2f6351c-ae80-49f3-a094-5fae2ee0fd21")
 			(effects
@@ -18131,7 +18131,7 @@
 				(justify right)
 			)
 		)
-		(pin "SENSE4" input
+		(pin "SENSE2" input
 			(at 266.7 215.9 0)
 			(uuid "192c70f5-afe4-4993-bdca-6c113280363f")
 			(effects
