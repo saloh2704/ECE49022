@@ -5904,7 +5904,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "39u"
+		(property "Value" "47u"
 			(at 279.4 27.9462 0)
 			(effects
 				(font
@@ -5974,7 +5974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "39u"
+		(property "Value" "47u"
 			(at 270.51 27.9462 0)
 			(effects
 				(font

@@ -515,7 +515,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "battprot",
+    "bom_export_filename": "powerdist.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -602,7 +602,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {

@@ -2707,7 +2707,7 @@
 		)
 		(uuid "46252289-6272-48ad-a62f-afba7d1e1c19")
 	)
-	(text "4S"
+	(text "3S"
 		(exclude_from_sim no)
 		(at 200.66 81.026 0)
 		(effects
@@ -2849,7 +2849,7 @@
 		)
 		(uuid "97f36ed9-225b-4480-9409-eb6e72d58702")
 	)
-	(text "3S\n"
+	(text "4S\n"
 		(exclude_from_sim no)
 		(at 190.5 81.026 0)
 		(effects
@@ -7614,7 +7614,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "100k"
 			(at 123.19 81.2799 0)
 			(effects
 				(font
@@ -7998,7 +7998,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "100k"
 			(at 123.19 86.3599 0)
 			(effects
 				(font
@@ -8574,7 +8574,7 @@
 				)
 			)
 		)
-		(property "Value" "895"
+		(property "Value" "2k"
 			(at 35.56 57.15 90)
 			(effects
 				(font
@@ -9029,7 +9029,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "698k"
 			(at 203.2 77.4699 0)
 			(effects
 				(font
@@ -9375,7 +9375,7 @@
 				)
 			)
 		)
-		(property "Value" "895"
+		(property "Value" "2k"
 			(at 35.56 48.26 90)
 			(effects
 				(font
@@ -10146,7 +10146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "700k"
+		(property "Value" "500k"
 			(at 193.04 77.4699 0)
 			(effects
 				(font
@@ -11150,7 +11150,7 @@
 				)
 			)
 		)
-		(property "Value" "895"
+		(property "Value" "2k"
 			(at 35.56 66.04 90)
 			(effects
 				(font
