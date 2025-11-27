@@ -2519,6 +2519,16 @@
 		)
 		(uuid "5d9c246f-12f3-4f48-8dd2-763fef69c88c")
 	)
+	(text "STUPID SW7\nNO CELL BALANCING (or 1k Rin)\nINCORRECT HIGH-SIDE LOGIC"
+		(exclude_from_sim no)
+		(at 261.366 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "611d2aa3-af85-45d9-903c-3a8169a2c436")
+	)
 	(text "high side: keeps common GND\nseparated CHG/DSG paths: easy battery isolation\nfrom www.ti.com/lit/ds/symlink/bq77207.pdf\nfrom www.ti.com/lit/an/slua910/slua910.pdf"
 		(exclude_from_sim no)
 		(at 251.968 56.388 0)

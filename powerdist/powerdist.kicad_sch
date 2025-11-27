@@ -4534,6 +4534,17 @@
 		)
 		(uuid "54713610-675a-45e3-9cca-62b9720dbf95")
 	)
+	(text "INCORPORATE\n- LF\n- SONAR\n- MOTOR REVERSE\n- LED"
+		(exclude_from_sim no)
+		(at 381.254 262.128 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67e0a856-e55c-40b1-9bea-4c981dde2bb8")
+	)
 	(text "FROM SERVO\nCONTROL"
 		(exclude_from_sim no)
 		(at 356.362 69.088 0)
