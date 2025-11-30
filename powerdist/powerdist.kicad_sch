@@ -4534,9 +4534,9 @@
 		)
 		(uuid "54713610-675a-45e3-9cca-62b9720dbf95")
 	)
-	(text "INCORPORATE\n- LF\n- SONAR\n- MOTOR REVERSE\n- LED"
+	(text "INCORPORATE\n- LF\n- SONAR\n- MOTOR REVERSE\n- LED\nBATTPROT ISSUES\nBUCKBOOST ISSUES"
 		(exclude_from_sim no)
-		(at 381.254 262.128 0)
+		(at 381.254 261.112 0)
 		(effects
 			(font
 				(size 1.27 1.27)

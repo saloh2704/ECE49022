@@ -1889,7 +1889,7 @@
 		)
 		(uuid "05bea932-3491-43ad-be72-a9f5523fab6b")
 	)
-	(text "2ms soft start\n"
+	(text "16ms soft start\n"
 		(exclude_from_sim no)
 		(at 72.644 107.95 0)
 		(effects
@@ -1898,6 +1898,16 @@
 			)
 		)
 		(uuid "21dc2932-7a2e-400c-a811-75ed318bf3c5")
+	)
+	(text "LOOP COMPENSATION\nFREQUENCY\nNOISE?"
+		(exclude_from_sim no)
+		(at 269.24 173.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4144763a-771c-4224-9444-b211b4aac87b")
 	)
 	(text "!DS10.5!\n"
 		(exclude_from_sim no)
