@@ -848,14 +848,6 @@
 		(uuid "2865004b-dd3e-4f42-acd8-11dd151f1bea")
 	)
 	(no_connect
-		(at 69.85 71.12)
-		(uuid "2b4808c3-97b0-45f3-a3a3-a5b400fcc14c")
-	)
-	(no_connect
-		(at 99.06 87.63)
-		(uuid "2f5cf3e9-1950-4862-82d2-0c4275881eae")
-	)
-	(no_connect
 		(at 109.22 87.63)
 		(uuid "39e926e5-e789-4adf-996e-829cccb61584")
 	)
@@ -884,10 +876,6 @@
 		(uuid "61f4bd7f-5497-4088-881c-6909d8b39181")
 	)
 	(no_connect
-		(at 135.89 36.83)
-		(uuid "69ee7d23-87fc-41e9-83c5-f59865d8184b")
-	)
-	(no_connect
 		(at 69.85 78.74)
 		(uuid "70f898eb-5128-4d8d-93ae-14a77b781acd")
 	)
@@ -910,10 +898,6 @@
 	(no_connect
 		(at 69.85 45.72)
 		(uuid "83dbac0d-c674-4a0d-9717-0a923d628d1a")
-	)
-	(no_connect
-		(at 135.89 67.31)
-		(uuid "bbd9e409-e8ae-4228-b0df-b96481e8aa10")
 	)
 	(no_connect
 		(at 69.85 68.58)
@@ -962,6 +946,50 @@
 		(uuid "457fe438-15cb-40da-bbca-87cb9612887d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 62.7524 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LF 5V"
+		(shape input)
+		(at 135.89 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45dc3a6b-fe3e-467a-9b46-f83761bcda5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.2576 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED DATA"
+		(shape input)
+		(at 69.85 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64cae530-ce35-4bf4-aa24-587eca7bf65e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.0353 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,6 +1100,50 @@
 		(uuid "a24a09cf-43ef-4534-90ac-d7f6332fcbf9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.4347 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LF GND"
+		(shape input)
+		(at 99.06 87.63 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9eaba23-5403-42b1-8a0c-9edc10002374")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.06 97.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M DIR"
+		(shape input)
+		(at 135.89 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4dc4bf7-bf2b-4a31-98cb-fa5ae649fb06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.439 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)

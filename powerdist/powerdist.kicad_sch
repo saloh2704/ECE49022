@@ -4534,9 +4534,9 @@
 		)
 		(uuid "54713610-675a-45e3-9cca-62b9720dbf95")
 	)
-	(text "INCORPORATE\n- LF\n- SONAR\n- MOTOR REVERSE\n- LED\nBATTPROT ISSUES\nBUCKBOOST ISSUES"
+	(text "INCORPORATE\n- LF\n- MOTOR REVERSE\n- LED\nBATTPROT ISSUES\nBUCKBOOST ISSUES"
 		(exclude_from_sim no)
-		(at 381.254 261.112 0)
+		(at 361.696 261.112 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4544,6 +4544,17 @@
 			(justify left)
 		)
 		(uuid "67e0a856-e55c-40b1-9bea-4c981dde2bb8")
+	)
+	(text "Q31 SIGNAL FET\nBATTCHARGE ISSUES\n3/4 LAYER PCB"
+		(exclude_from_sim no)
+		(at 382.778 258.572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98831bd9-8a3e-4d4d-837b-c23f8c303319")
 	)
 	(text "FROM SERVO\nCONTROL"
 		(exclude_from_sim no)

@@ -1899,7 +1899,7 @@
 		)
 		(uuid "21dc2932-7a2e-400c-a811-75ed318bf3c5")
 	)
-	(text "LOOP COMPENSATION\nFREQUENCY\nNOISE?"
+	(text "LOOP COMPENSATION\nSLOPE COMPENSATION\nFREQUENCY\nNOISE?"
 		(exclude_from_sim no)
 		(at 269.24 173.228 0)
 		(effects

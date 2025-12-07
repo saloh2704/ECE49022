@@ -2964,6 +2964,16 @@
 		)
 		(uuid "e6b42db9-5dcc-47b4-822d-14b3159355ac")
 	)
+	(text "BAD CHARGE SETTING (PARALLEL RESISTORS)"
+		(exclude_from_sim no)
+		(at 260.096 175.006 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6cf5af8-cf1d-44d7-b1f2-f2620f6b8a71")
+	)
 	(text "Ichg=7.2A\nViset1=1.44V\nR8=1.44/3.3=43.6%\nR8=44.2k,R7=57.6k"
 		(exclude_from_sim no)
 		(at 16.002 180.086 0)
