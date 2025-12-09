@@ -815,6 +815,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "DEAD PIN"
+		(exclude_from_sim no)
+		(at 64.262 38.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0ed7a5fd-c159-47d9-8bdb-6137291097f8")
+	)
+	(junction
+		(at 68.58 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b56fc8a-572c-4595-9902-51144564a5f3")
+	)
+	(junction
+		(at 68.58 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efe24b57-4058-4897-854e-e57e36e6b426")
+	)
 	(no_connect
 		(at 111.76 87.63)
 		(uuid "019be6e3-3235-457e-b368-bfb4be0f8e63")
@@ -900,6 +922,10 @@
 		(uuid "83dbac0d-c674-4a0d-9717-0a923d628d1a")
 	)
 	(no_connect
+		(at 69.85 38.1)
+		(uuid "c3d8742f-6864-46a1-b75a-602d52ef3bd5")
+	)
+	(no_connect
 		(at 69.85 68.58)
 		(uuid "e4edce43-4b08-42fc-9977-9e07b2b89be4")
 	)
@@ -910,6 +936,86 @@
 	(no_connect
 		(at 135.89 41.91)
 		(uuid "f2dc4d12-641e-4219-a4bf-d8ff89ccf502")
+	)
+	(wire
+		(pts
+			(xy 67.31 58.42) (xy 68.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd2d716-1475-4be0-9f80-4f23385ad842")
+	)
+	(wire
+		(pts
+			(xy 68.58 58.42) (xy 69.85 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61789e5e-a17c-4984-8777-72bb51ebef2f")
+	)
+	(wire
+		(pts
+			(xy 68.58 55.88) (xy 69.85 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a45972a-9ede-436c-83f8-d9db14bcaf16")
+	)
+	(wire
+		(pts
+			(xy 68.58 58.42) (xy 68.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8181013f-c552-4674-97e6-62c027ef3e8d")
+	)
+	(wire
+		(pts
+			(xy 67.31 55.88) (xy 68.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d26fd51-8109-4190-9b60-ad587d6131ec")
+	)
+	(wire
+		(pts
+			(xy 67.31 60.96) (xy 68.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01e3368-cbaf-4830-9305-9f0cc40175e7")
+	)
+	(wire
+		(pts
+			(xy 67.31 53.34) (xy 68.58 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28374d5-8213-4c79-8303-e1f02da1f94b")
+	)
+	(wire
+		(pts
+			(xy 68.58 53.34) (xy 68.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e606c055-22cc-494c-9bc9-6a13816e64a3")
 	)
 	(global_label "LF R"
 		(shape input)
@@ -977,6 +1083,28 @@
 			)
 		)
 	)
+	(global_label "M FR"
+		(shape input)
+		(at 67.31 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b0bd8ec-5e69-4186-a23c-b4f540dde10e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.5472 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED DATA"
 		(shape input)
 		(at 69.85 71.12 180)
@@ -999,31 +1127,9 @@
 			)
 		)
 	)
-	(global_label "M BR"
-		(shape input)
-		(at 69.85 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6ce07927-1a9f-45ab-a5a7-6794e2ff64b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.9058 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "M BL"
 		(shape input)
-		(at 69.85 55.88 180)
+		(at 67.31 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1033,7 +1139,7 @@
 		)
 		(uuid "74441232-1121-4c1c-8de0-aa350c292a65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.1477 55.88 0)
+			(at 59.6077 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,6 +1325,28 @@
 			)
 		)
 	)
+	(global_label "M BR"
+		(shape input)
+		(at 67.31 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcbe0ac6-0466-4a0e-a8e3-40afe5a814be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.3658 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LF GND"
 		(shape input)
 		(at 93.98 87.63 270)
@@ -1241,9 +1369,9 @@
 			)
 		)
 	)
-	(global_label "M FR"
+	(global_label "M REV"
 		(shape input)
-		(at 69.85 38.1 180)
+		(at 67.31 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1251,9 +1379,9 @@
 			)
 			(justify right)
 		)
-		(uuid "f55bc506-3479-4944-aaae-4cd32cf69425")
+		(uuid "efd9247c-c8a2-401e-bf3d-32436de303f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.0872 38.1 0)
+			(at 58.3982 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
